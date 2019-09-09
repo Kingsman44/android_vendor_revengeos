@@ -68,9 +68,9 @@ include vendor/pixelstyle/config.mk
 PRODUCT_COPY_FILES += \
     vendor/revengeos/prebuilt/common/etc/sensitive_pn.xml:system/etc/sensitive_pn.xml
 
-# SetupWizard overlay
+# PixelSetupWizard overlay
 PRODUCT_PACKAGES += \
-    SetupWizardOverlay
+    PixelSetupWizardOverlay
 
 # Priv-app permissions
 ifeq ($(REVENGEOS_BUILDTYPE),OFFICIAL)
