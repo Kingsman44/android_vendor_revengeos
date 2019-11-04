@@ -70,7 +70,8 @@ PRODUCT_COPY_FILES += \
 
 # PixelSetupWizard overlay
 PRODUCT_PACKAGES += \
-    PixelSetupWizardOverlay
+    PixelSetupWizardOverlay \
+    PixelSetupWizardAodOverlay
 
 # Priv-app permissions
 ifeq ($(REVENGEOS_BUILDTYPE),OFFICIAL)
