@@ -26,7 +26,7 @@ PRODUCT_PACKAGES += \
 
 # RevengeOS packages
 PRODUCT_PACKAGES += \
-    RetroMusicPlayer \
+#    RetroMusicPlayer \
     RevengeOSCalculator \
     OmniJaws \
     WeatherIcons \
